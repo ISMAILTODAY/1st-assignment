@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header section */
+
+
+header{
+      background: url(banner/banner3.png);
+      width: 100%;
+      height: 808px;
+}
+
+
+/* header content section */
+
+
+.header-containar{
+    text-align: right;
+    
+}
+.header-containar{
+    width: 300px;
+    text-align: right;
+    margin-left: 900px;
+    padding-top: 200px;
+    color: white;
+}
+.header-heading{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.header-description{
+    width:200x;
+    font-size: 18px;
+    padding: 5px;
+}
+
+
+.header-btn{
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    color: rgb(50, 93, 236);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-right: -2px;
+    margin-top:10px ;
+   
+}
+
+
+/* main section */
+
+
+main{
+    display: flex;
+    padding: 150px;
+    gap: 100px;
+}
+
+.main-heading{
+    padding-top:260px ;
+    padding-bottom: 30px;
+    width: 300px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.main-discription{
+    width: 400px;
+    padding-bottom: 30px;
+    color: #757575;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* Sub-section */
+
+
+ul {
+    
+    padding-left: 40px;
+    font-size: 20px;
+    color: #757575;
+    
+}
+ul li{
+    padding: 10px;
+}
+section h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+    justify-items: center;
+    
+}
+.sub-section div h1{
+    font-weight: bold;
+    padding: 10px;
+}
+.sub-section div p{
+    text-align: center;
+    font-weight: bold;
+    color: #757575;
+    
+}
+
+
+/* Icone adjustment */
+
+
+.web{
+    padding-left:55px ;
+}
+.js{
+    padding-left:10px ;
+}
+.smoke{
+    padding-left:35px ;
+}
+.ecommerce{
+    padding-left:10px ;
+}
+
+
+/* Sub-section2 */
+
+
+.sub-section2-item{
+    width: 950px;
+    height: 250px;
+    background: url(watch.png), url(gradient1.png);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+.sub-section2{
+   padding-left: 50px;
+    padding-top: 80px;
+}
+.sub-section2 h1{
+    width: 80x;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.sub-section2 button{
+    width: 100px;
+    margin-top: 20px;
+padding: 15px;
+border: none;
+border-radius: 10px;
+font-size: 15px;
+font-weight: bold;
+color: rgb(0, 119, 255);
+}
+
+/* left footer section */
+
+footer{
+    width: 100%;
+    height: 400px;
+    margin-top: 120px;
+    display: flex;
+    background: black;
+    color: white;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+.footer-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.footer-description{
+    width: 330px;
+    padding-top: 20px;
+}
+
+
+/* footer-icon adsjustment */
+
+
+.footer-icon{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+
+/* Right footer section */
+
+
+.right-footer h4{
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+.right-footer input{
+    width: 250px ;
+    background: transparent;
+    padding: 15px;
+    border: 1px #757575 solid;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+.right-footer button{
+    width: 130px;
+    background: rgb(24, 122, 250);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+}
+::placeholder{
+    color: white;
+    opacity: 0.5;
+}
